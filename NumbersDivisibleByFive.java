@@ -20,6 +20,7 @@ public class NumbersDivisibleByFive {
       
         control(number);
         control(number);
-        
+       
     }
+    
 }
