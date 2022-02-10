@@ -38,4 +38,5 @@ public class SortTheArray {
             System.out.println(array[i]);
         }
     }
+    
 }
