@@ -10,7 +10,7 @@ public class BodyMassIndexCalculation {
       
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Height: ");    height = scanner.nextDouble();
+        System.out.println("Height: ");     height = scanner.nextDouble();
         System.out.println("Weight: ");     weight = scanner.nextInt();
         
         bmi = weight / (height*height);
