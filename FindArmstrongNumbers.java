@@ -5,11 +5,11 @@ public class FindArmstrongNumbers {
   
     public static void main(String[] args)
     {
-        int sayi, temp, deger, toplam=0, basamak=0;
+        int number, temp, value, sum = 0, digit = 0;
+      
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Lutfen bir sayi giriniz.");
-        sayi=scanner.nextInt();
+        System.out.println("Enter number: ");   number = scanner.nextInt();
         
         temp=sayi;
         
