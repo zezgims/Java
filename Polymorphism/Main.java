@@ -3,9 +3,9 @@ public class Main {
     public static void main(String []args)
     {
         Animal animal = new Animal("Limon");
-        Animal cat = new Cat("Tekir");
-        Animal dog = new Dog("Karabaş");
-        Animal horse = new Horse("Gazi");
+        Cat cat = new Cat("Tekir");
+        Dog dog = new Dog("Karabaş");
+        Horse horse = new Horse("Gazi");
         
         System.out.println(animal.Speak());
         System.out.println(cat.Speak());
