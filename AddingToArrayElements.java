@@ -18,6 +18,6 @@ public class AddingToArrayElements {
      
         int array[] = {2,4,5,9};
    
-        Add(array);        
+        Add(array);    
     }
 }
