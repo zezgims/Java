@@ -10,6 +10,6 @@ public class Main {
         System.out.println(animal.Speak());
         System.out.println(cat.Speak());
         System.out.println(dog.Speak());
-        System.out.println(horse.Speak());
+        System.out.println(horse.Speak()); 
     }
 }
