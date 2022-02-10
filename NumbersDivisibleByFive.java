@@ -22,5 +22,4 @@ public class NumbersDivisibleByFive {
         control(number);
         
     }
-    
 }
