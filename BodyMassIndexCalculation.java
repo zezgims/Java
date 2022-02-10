@@ -34,4 +34,5 @@ public class BodyMassIndexCalculation {
             System.out.println("Unfortunately, you are obese.");
         }
     }
+  
 }
