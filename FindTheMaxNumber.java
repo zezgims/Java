@@ -29,4 +29,5 @@ public class FindTheMaxNumber {
         System.out.println("Max number: " + max);
         
     }
+  
 }
