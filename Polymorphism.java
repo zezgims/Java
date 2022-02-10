@@ -31,37 +31,37 @@ class Cat extends Animal
     }
 
     @Override
-    public String Talk()
+    public String Speak()
     {
         return this.getname() + " meowing.";
     }
 }
 
-class Köpek extends Hayvan
+class Dog extends Animal
 {
-    public Köpek(String isim)
+    public Dog(String name)
     {
-        super(isim);
+        super(name);
     }
     
     @Override
-    public String konuş()
+    public String Speak()
     {
-        return this.getisim() + " havlıyor.";
+        return this.getname() + " barking.";
     }
 }
 
-class At extends Hayvan
+class Horse extends Animal
 {
-    public At(String isim)
+    public Horse(String name)
     {
-        super(isim);
+        super(name);
     }
     
     @Override
-    public String konuş()
+    public String Speak()
     {
-        return this.getisim() + " kişniyor.";
+        return this.getname() + " neighing.";
     }
 }
 
@@ -69,7 +69,7 @@ public class Main {
     
     public static void main(String []args)
     {
-        Hayvan hayvan = new Hayvan("Limon");
+        Animal animal = new Animal("Limon");
         Hayvan hayvan2 = new Kedi("Tekir");
         Hayvan hayvan3 = new Köpek("Karabaş");
         Hayvan hayvan4 = new At("Gazi");
