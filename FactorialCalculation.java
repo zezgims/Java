@@ -18,5 +18,4 @@ public class FactorialCalculation {
             
         System.out.println("Factorial = " + result);
     }
-   
 }
