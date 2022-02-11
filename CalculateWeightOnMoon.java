@@ -15,7 +15,6 @@ public class Chapter1SelfTest {
 		System.out.println("The weight of a person is " + earth_weight + 
 						   " in the world, is " + moon_weight + 
 						   " in the moon");
-		
 	}
 
 }
